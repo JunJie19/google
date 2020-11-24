@@ -1,38 +1,130 @@
-.App {
+body {
+  margin: auto;
+  padding: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+  padding-top: 1rem;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  flex: 50%;
+}
+
+.header-left{
+  width: 70%;
+}
+
+.header-right{
+  width: 30%;
+  text-align: right;
+}
+
+.left {
+  display: inline;
+  margin: 0.5rem;
+}
+
+.right {
+  width: 100%;
+  position: relative;
+  display: inline;
+  margin: 0.5rem;
+}
+
+
+.google-Body {
+  margin-top: 2rem;
+  width: 100%;
+  height: 550px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img_google {
+  margin-top: 2.2rem;
+  margin-left: 0.8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-group {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 400px;
+}
+
+.btn {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+.search {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex: 50%;
+  margin-top: 0.8rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.inputText {
+  height: 38px;
+  width: 400px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconLeft {
+  width: 38px;
+  height: 38px;
+  border: 1px solid grey;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.iconRight {
+  width: 38px;
+  height: 38px;
+  border: 1px solid grey;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer{
+  width: 100%;
+  height: 80px;
+  background-color: #f2f2f2;
+}
+
+.footer_1{
+  height: 40px;
+  position: relative;
+  border-top: 1px solid #dadce0;
+  border-bottom: 1px solid #dadce0;
+  margin-left:1rem;
+}
+
+.footer_2{
+  border-top: 1px solid #dadce0;
+  border-bottom: 1px solid #dadce0;
+  display: grid;
+  grid-template-columns: 35% 35% 20%;
+  height: 40px;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  margin-left: 1rem;
+}
+
+.footer_left{
+  text-align: left;
+}
+
+.footer_right{
+  text-align: right;
+
 }
